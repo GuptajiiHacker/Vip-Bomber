@@ -5,7 +5,7 @@ echo -e "\e[1;34m Presents \e[0m"
 echo -e "\e[1;32m Vip-Bomber \e[0m"
 echo "Press Enter To Continue"
 read a1
-if [[ -s update.speedx ]];then
+if [[ -s update.Vip-Bomber ]];then
 echo "All Requirements Found...."
 else
 echo 'Installing Requirements....'
@@ -24,7 +24,7 @@ do
 rm *.xxx >/dev/null 2>&1
 clear
 echo -e "\e[1;31m"
-figlet CyberGhostWeapon
+figlet Vip-Bomber
 echo -e "\e[1;34m Created By \e[1;32m"
 toilet -f mono12 -F border Vip-Bomber
 echo -e "\e[4;34m This Bomber Was Created By Vip-Bomber\e[0m"
