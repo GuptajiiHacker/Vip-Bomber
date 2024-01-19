@@ -238,8 +238,7 @@ def clr():
         os.system('clear')
 def banner():
 
-    clr()
-    logo="""" 
+    clr() 
     print(random.choice(colors)+logo+W)
     print("\n")
 
