@@ -20,8 +20,8 @@ except ImportError:
 
 colors=['\033[1;31m','\033[1;32m','\033[1;33m','\033[1;34m','\033[1;35m','\033[1;36m']
 W='\033[0m'
-# The Credit For This Code Goes To CyberGhost And All Other Contributors Listed At https://github.com/MrHarshArora/CyberGhostWeapon
-# If You Wanna Take Credits For This Code, Please Look Yourself Again
+# The Credit For This Code Goes To KrishnaGupta And All Other Contributors Listed At https://github.com/HackerGuptajii/Vip-Bomber
+# use this tool as you own permission, Please Look Yourself Again
 
 country_codes = {
     '93': 'AF',
@@ -239,13 +239,14 @@ def clr():
 def banner():
 
     clr()
-    logo=""" 
-  ____      _                ____ _               _   
- / ___|   _| |__   ___ _ __ / ___| |__   ___  ___| |_ 
-| |  | | | | '_ \ / _ \ '__| |  _| '_ \ / _ \/ __| __|
-| |__| |_| | |_) |  __/ |  | |_| | | | | (_) \__ \ |_ 
- \____\__, |_.__/ \___|_|   \____|_| |_|\___/|___/\__|
-      |___/  """
+    logo="""" 
+ _    ___             ____                  __             
+| |  / (_)___        / __ )____  ____ ___  / /_  ___  _____
+| | / / / __ \______/ __  / __ \/ __ `__ \/ __ \/ _ \/ ___/
+| |/ / / /_/ /_____/ /_/ / /_/ / / / / / / /_/ /  __/ /    
+|___/_/ .___/     /_____/\____/_/ /_/ /_/_.___/\___/_/     
+     /_/                                                   
+     
     print(random.choice(colors)+logo+W)
     print("\n")
 
