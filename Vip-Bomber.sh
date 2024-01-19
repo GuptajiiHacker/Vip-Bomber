@@ -2,7 +2,7 @@
 clear
 echo -e "\e[4;31m CyberGhost !!! \e[0m"
 echo -e "\e[1;34m Presents \e[0m"
-echo -e "\e[1;32m CyberGhostWeapon \e[0m"
+echo -e "\e[1;32m CyberGhostWeapo \e[0m"
 echo "Press Enter To Continue"
 read a1
 if [[ -s update.speedx ]];then
