@@ -20,8 +20,8 @@ except ImportError:
 
 colors=['\033[1;31m','\033[1;32m','\033[1;33m','\033[1;34m','\033[1;35m','\033[1;36m']
 W='\033[0m'
-# The Credit For This Code Goes To CyberGhost And All Other Contributors Listed At https://github.com/MrHarshArora/CyberGhostWeapon
-# If You Wanna Take Credits For This Code, Please Look Yourself Again
+# The Credit For This Code Goes To KrishnaGupta And All Other Contributors Listed At https://github.com/HackerGuptajii/Vip-Bomber
+If You Wanna Take Credits For This Code, Please Look Yourself Again
 
 country_codes = {
     '93': 'AF',
@@ -271,7 +271,7 @@ def infinite(pn, dl, ch, max):
             continue
         os.system('rm proc.xxx >/dev/null 2>&1')
         count_inf += 1
-        # os.system('echo CyberGhost >> count.xxx')
+        # os.system('echo Vip-Bomber>> count.xxx')
         time.sleep(float(dl))
         if (count_inf > maxlim):
             exit()
@@ -287,7 +287,7 @@ def checkinternet():
         res = True
     if res:
         print("\n\n\tIt seems That Your Internet Speed is Slow or You Are Using Proxies...")
-        print('\t\tCyberGhostWeapon Will Stop Now...\n\n')
+        print('\t\tVip-Bomber Will Stop Now...\n\n')
         banner()
         exit()
 
@@ -706,7 +706,7 @@ def start(target, counter, delay, ch, cc):
             api = random.choice(ch)
         except Exception:
             if cc == "91":
-                print('Sorry All APIs Have Expired Please Update CyberGhostWeapon')
+                print('Sorry All APIs Have Expired Please Update Vip-Bomber')
                 input('Press Enter To Exit...')
                 exit()
             else:
@@ -724,7 +724,7 @@ def start(target, counter, delay, ch, cc):
                 else:
                     print('\n\n\tSorry Your Country is Not Supported...')
                     print(
-                        '\t\tPlease Send A Mail To cyb3r.gh02t.ha@gmail.com To Let Us Know...')
+                        '\t\tPlease Send A Mail To HackerGuptajii@gmail.com To Let Us Know...')
                     input('Press Enter To Exit...')
                     exit()
         print(random.choice(colors))
@@ -738,7 +738,7 @@ def start(target, counter, delay, ch, cc):
         print("             Failed Requests         : ", failed)
         print("==================================================================")
         print("              Use this for fun, not for revenge !!                ")
-        print("              This Bomber Was Created By CyberGhost !!                ")
+        print("              This Bomber Was Created By KrishnaGupta !!                ")
         print("==================================================================")
         try:
             result = getapi(target, api, cc)
@@ -767,7 +767,7 @@ def update():
         print('\n\t\tUpdated Successfull !!!!')
         print('\tPlease Run The Script Again...')
     else:
-        print("Please reclone CyberGhostWeapon Again")
+        print("Please reclone Vip-Bomber Again")
     sys.exit()
 
 
@@ -879,7 +879,7 @@ if cbomb:
 if nm == 0:
     nt = int(input("\tNumber Of Threads(10 to 20) : "))
     if nt <= 0 or nt >= 30:
-        print('\tCyberGhostWeapon Shows Better Result in 10 to 25 Threads\n\t\tStill Continuing....')
+        print('\tVip-Bomber Shows Better Result in 10 to 25 Threads\n\t\tStill Continuing....')
     print("\n\nPlease Remember That This Is in Experimental Stage And Is Incredibly Fast...")
     t = [None] * nt
     print(random.choice(colors))
@@ -892,7 +892,7 @@ if nm == 0:
     print("             Delay               : ", dl)
     print("==================================================================")
     print("              Use this for fun, not for revenge !!                ")
-    print("              This Bomber Was Created By CyberGhost !        ")
+    print("              This Bomber Was Created By KrishnaGupta !        ")
     print("==================================================================")
     print(W)
     input('\n\nPress CTRL+Z To STOP Bomber... \nPress Enter To Start Bomber...\n')
