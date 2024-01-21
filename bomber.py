@@ -783,8 +783,8 @@ except Exception:
     print("\tPlease Connect To Internet To Continue...\n")
     input('Exiting....\n Press Enter To Continue....')
     exit()
-print("Your Version is Up-To-Date")
-print('\n\n\t\t\tStarting CyberGhostWeapon...\n\n')
+print("Your Version is Up-To-Date-1.0.1")
+print('\n\n\t\t\tStarting Vip-Bomber...\n\n')
 try:
     noti = urllib.request.urlopen(
         "#").read().decode('utf-8')
