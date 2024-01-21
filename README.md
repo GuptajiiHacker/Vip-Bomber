@@ -70,7 +70,7 @@ To use the bomber type the following commands in Linux terminal:
 ```
 sudo apt install git
 git clone https://github.com/HackerGuptajii/Vip-Bomber.git
-cd CyberGhostWeapon
+cd Vip-Bomber
 chmod +x Vip-Bomber.sh
 sudo bash Vip-Bomber.sh
 ```
@@ -104,7 +104,7 @@ sudo bash Vip-Bomber.sh
 
 ## Demontrative Video:
 
-- Watch Indian Bombing Method <a href="https://www.youtube.com/watch?v=3OGGi0AtCB8&t=12s&ab_channel=CyberGhost">here</a><br>
+- Watch Indian Bombing Method <a href="">here</a><br>
 
 Feel Free To Open An Issue...
 
